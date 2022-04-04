@@ -1,0 +1,154 @@
+{
+  "contents": [
+    {
+      "body": "1. Software yang digunakan dalam pengembangan Android adalah ...",
+      "image": "",
+      "answers": [
+        {
+          "answer": "Android Studio",
+          "correct_answer": true,
+          "is_click": false,
+          "option": "A"
+        },
+        {
+          "answer": "Android Virtual Device Manager",
+          "correct_answer": false,
+          "is_click": false,
+          "option": "B"
+        },
+        {
+          "answer": "Standart Development Kit Manager",
+          "correct_answer": false,
+          "is_click": false,
+          "option": "C"
+        },
+        {
+          "answer": "Semua jawaban benar",
+          "correct_answer": false,
+          "is_click": false,
+          "option": "D"
+        }
+      ]
+    },
+    {
+      "body": "2. Pengaturan layout aplikasi Android dilakukan melalui file ...",
+      "image": "",
+      "answers": [
+        {
+          "answer": "File layout xml",
+          "correct_answer": true,
+          "is_click": false,
+          "option": "A"
+        },
+        {
+          "answer": "File layout jar",
+          "correct_answer": false,
+          "is_click": false,
+          "option": "B"
+        },
+        {
+          "answer": "File layout java",
+          "correct_answer": false,
+          "is_click": false,
+          "option": "C"
+        },
+        {
+          "answer": "Semua jawaban benar",
+          "correct_answer": false,
+          "is_click": false,
+          "option": "D"
+        }
+      ]
+    },
+    {
+      "body": "3. Berikut ini yang bukan merupakan jenis layout adalah...",
+      "image": "",
+      "answers": [
+        {
+          "answer": "Variabel Layout",
+          "correct_answer": false,
+          "is_click": false,
+          "option": "A"
+        },
+        {
+          "answer": "Linear layout",
+          "correct_answer": false,
+          "is_click": false,
+          "option": "B"
+        },
+        {
+          "answer": "Relative layout",
+          "correct_answer": false,
+          "is_click": false,
+          "option": "C"
+        },
+        {
+          "answer": "Semua jawaban benar",
+          "correct_answer": true,
+          "is_click": false,
+          "option": "D"
+        }
+      ]
+    },
+    {
+      "body": "4. Berikut ini yang bukan merupakan orientasi Linear layout adalah...",
+      "image": "",
+      "answers": [
+        {
+          "answer": "Horisontal",
+          "correct_answer": false,
+          "is_click": false,
+          "option": "A"
+        },
+        {
+          "answer": "Variabel",
+          "correct_answer": true,
+          "is_click": false,
+          "option": "B"
+        },
+        {
+          "answer": "Vertical",
+          "correct_answer": false,
+          "is_click": false,
+          "option": "C"
+        },
+        {
+          "answer": "Semua jawaban benar",
+          "correct_answer": false,
+          "is_click": false,
+          "option": "D"
+        }
+      ]
+    },
+    {
+      "body": "5. Groupview dapat berisi...",
+      "image": "",
+      "answers": [
+        {
+          "answer": "Text",
+          "correct_answer": false,
+          "is_click": false,
+          "option": "A"
+        },
+        {
+          "answer": "Text field",
+          "correct_answer": false,
+          "is_click": false,
+          "option": "B"
+        },
+        {
+          "answer": "Tombol",
+          "correct_answer": false,
+          "is_click": false,
+          "option": "C"
+        },
+        {
+          "answer": "Semua jawaban benar",
+          "correct_answer": true,
+          "is_click": false,
+          "option": "D"
+        }
+      ]
+    }
+  ]
+}
