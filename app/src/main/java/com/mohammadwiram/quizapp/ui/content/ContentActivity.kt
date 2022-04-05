@@ -17,6 +17,7 @@ import org.jetbrains.anko.startActivity
 
 class ContentActivity : AppCompatActivity() {
 
+  // menambahkan bundle
   companion object{
     const val EXTRA_NICKNAME = "extra_nickname"
     const val EXTRA_CONTENTS = "extra_contents"
@@ -37,23 +38,24 @@ class ContentActivity : AppCompatActivity() {
     // inisiasi ContentAdapter
     contentAdapter = ContentAdapter()
 
-    // mengambil data
+    // mengambil data dari intent
     if (intent != null){
       nickname = intent.getStringExtra(EXTRA_NICKNAME)
     }
 
+    // menampilkan data setelah terjadi orientasi 
     if (savedInstanceState != null){
       nickname = savedInstanceState.getString(EXTRA_NICKNAME)
       val contents = savedInstanceState.getParcelableArrayList<Content>(EXTRA_CONTENTS)
       showDataContents(contents)
     }else{
-      //Get Data from Repository
+      // mendapatkan data dari repository
       val contents = Repository.getDataContents(this)
-      //Show Data
+      // menampilkan data content
       showDataContents(contents)
     }
 
-    //On Click
+    // memanggil fungsi onclick
     onClick()
   }
 
@@ -149,10 +151,11 @@ class ContentActivity : AppCompatActivity() {
     contentBinding.rvContent.layoutManager = layoutManager
     contentBinding.rvContent.adapter = contentAdapter
 
+    // mendapatkan jumlah data halaman
     dataSize = layoutManager.itemCount
     contentBinding.pbContent.max = dataSize - 1
 
-    //First Show Index
+    // menampilkan index pertama
     var index = "${currentPosition + 1} / $dataSize"
     contentBinding.tvIndexContent.text = index
 
